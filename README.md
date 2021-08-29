@@ -4,6 +4,6 @@
 # Work in Progress
 
 # References
-XLink library: https://github.com/luxonis/XLink
-libusb library: https://github.com/libusb/libusb
-libusbAndroidTest app example: https://github.com/ibaiGorordo/libusbAndroidTest
+- XLink library: https://github.com/luxonis/XLink
+- libusb library: https://github.com/libusb/libusb
+- libusbAndroidTest app example: https://github.com/ibaiGorordo/libusbAndroidTest
