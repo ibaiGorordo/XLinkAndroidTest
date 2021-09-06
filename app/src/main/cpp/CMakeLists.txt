@@ -25,7 +25,9 @@ include_directories(${LIBUSB_DIR}
 
 ######         XLink         ######
 
-#add_subdirectory(XLink)
+set(LIBUSB_INCLUDE_DIR ${CMAKE_SOURCE_DIR}/../include/libusb)
+set(LIBUSB_LIBRARY ${CMAKE_SOURCE_DIR}/../lib)
+add_subdirectory(XLink)
 
 # Creates and names a library, sets it as either STATIC
 # or SHARED, and provides the relative paths to its source code.
@@ -61,7 +63,7 @@ find_library( # Sets the name of the path variable.
 target_link_libraries( # Specifies the target library.
         xlink_android_test
 
-#        XLink
+        XLink
 
         usb-1.0
 
